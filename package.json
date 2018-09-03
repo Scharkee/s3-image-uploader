@@ -1,7 +1,7 @@
 {
   "name": "s3-image-uploader",
   "description": "A Node.js module for resizing, and uploading files to Amazon S3 with capability to track progress using websockets.",
-  "version": "1.0.7",
+  "version": "1.0.7f",
   "author": {
     "name": "Adam Henson",
     "email": "adamhenson1979@gmail.com"
@@ -28,9 +28,9 @@
     "url": "https://github.com/adamhenson/s3-image-uploader.git"
   },
   "dependencies": {
-    "ws": "~0.4.32",
-    "s3": "~4.2.0",
-    "gm": "~1.16.0",
+    "ws": ">=3.3.1",
+    "s3": ">=4.4.0",
+    "gm": ">=1.21.1",
     "extend": "^3.0.0"
   }
 }
